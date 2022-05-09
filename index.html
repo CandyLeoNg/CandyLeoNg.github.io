@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ResearchTools</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">   
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- <link href="css/theme.css" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">          
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                
+    <link rel="stylesheet" href="css/hero-slider-style.css">                              
+    <link rel="stylesheet" href="css/magnific-popup.css">                               
+    
+    <link rel="stylesheet" href="css/templatemo-style.css">    
+    <script src="css/ie-emulation-modes-warning.js.下载"></script>                       
+
+    <script>
+        function time(){var h=new Date().getHours();h=h<10?("0"+h):h;var m=new Date().getMinutes();m=m<10?("0"+m):m;var s=new Date().getSeconds();s=s<10?("0"+s):s;document.getElementById("time").innerHTML=h+":"+m+":"+s}
+        function date(){
+            var m=new Date().getMonth();
+            m=m+1;var d=new Date().getDate();
+            d=d<10?(d):d;document.getElementById("date").innerHTML=m+"月"+d+"日"}
+        function day(){
+            var x;
+            var day=new Date().getDay();
+            switch(day){
+                case 0:x="日";break;
+                case 1:x="一";break;
+                case 2:x="二";break;
+                case 3:x="三";break;
+                case 4:x="四";break;
+                case 5:x="五";break;
+                case 6:x="六";break}
+                document.getElementById("day").innerHTML=" 星期"+x}setInterval(time,500);
+                setInterval(date,700);setInterval(day,1000);
+    </script>
+    <style>
+        .text {
+        font-size:22px;
+        border-radius: 5%;
+        border: 1px red;
+        /* width: 100px;
+        height: 30px; */
+        /* color:white; */
+        background-color: burlywood;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+        .item{
+            font-size:20px;
+            color: #000;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .text1 {
+        font-size:22px;
+        border-radius: 5%;
+        color:white;
+        background-color: darkcyan;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .text1-1{
+        font-size:22px;
+        border-radius: 5%;
+        color:white;
+        background-color: darkcyan;
+        font-family:'Times New Roman', Times, serif;
+
+    }
+
+        .text2 {
+            font-size:22px;
+            border-radius: 5%;
+            color:black;
+            background-color:rosybrown;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .text3 {
+            font-size:22px;
+            border-radius: 5%;
+            color:white;
+            background-color:seagreen;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .text4 {
+            font-size:22px;
+            border-radius: 5%;
+            /* border: 1px red; */
+            /* width: 100px;
+            height: 30px; */
+            color:black;
+            background-color:thistle;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .navr{
+            color:gray;
+            font-size:22px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .leader{
+            font-size: 20px;
+        }
+        .up{
+            float: right; 
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+              <div class="">
+                 <a class="navr">
+                     <marquee Width="1000px" behavior="alternate">科学没有国境，但科学家有祖国! &emsp; 有任何建议或推荐可给我留言哦！！</marquee></a>
+              </div>
+            </div>
+        </nav>
+        <div class="">
+            <ul class="cd-hero-slider">  <!--控制整体位置-->
+                <li class="selected"><!--控制背景-->
+                    <div class="cd-full-width"><!--控制上下移动-->
+                        <div class="container-fluid js-tm-page-content tm-page-1" data-page-no="1"> <!--控制方框大小-->
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <img src="img/huojian.png" width="80" height="80">
+                                    <br/>
+                                    <br/>
+                                    <h2 class="tm-site-name">科研、学术与研究工具一站式导航</h2>
+                                    <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-1-col">
+                                        <a class="leader">[主理人：可乐不加糖Leo] </a>
+                                        <div style="display: inline-block;" class="up">
+                                            <a href="https://jingyan.baidu.com/article/c275f6bad8304aa23c756703.html" target="_blank">设为主页</a>&nbsp;&nbsp; <a href="https://space.bilibili.com/1789227239?spm_id_from=333.1007.0.0" target="_blank">打赏</a>
+                                        </div>
+                                        <hr/>
+                                        <div style="text-align: center;">
+                                            <a id="time" style="color: black;"></a>&nbsp;<a id="date" style="color: black;"></a>&nbsp;<a id="day" style="color: black;"></a>
+                                        </div>
+                                        <hr/>
+                                        <br/>
+
+                                        <a class="text1">&nbsp;科研工具&nbsp;</a>&emsp;&emsp;&emsp;
+                                        <div style="display: inline-block;" class="item">
+                                            <a href="http://corejournal.lib.sjtu.edu.cn/" target="_blank" style="color: #000;">核心期刊查询</a> &nbsp; | &nbsp; <a href="http://www.letpub.com.cn/index.php?page=journalapp&view=search" target="_blank" style="color: #000;">SCI分区查询</a> &nbsp; | &nbsp;  <a href="https://mp.weixin.qq.com/s?__biz=MzI1MzA2MzM1NA==&mid=2659568062&idx=1&sn=f9eeca272657ae341f378116600c4d84&chksm=f2ab506bc5dcd97d60e33e5ec94b48e5d04e75587357aeb61ca9691fe7e4b13fc95b5a093f6e&scene=178&cur_album_id=2186492876136693765#rd" target="_blank" style="color: #000;">中科院分区查询</a>  &nbsp; | &nbsp; <a href="http://www.medsci.cn/sci/" target="_blank" style="color: #000;">MedSci 分区查询</a> 
+                                        </div>
+                                        <br/><br/>
+                                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                        <div style="display: inline-block;" class="item">
+                                            <a href="http://www.edanzediting.com/journal_selector" target="_blank" style="color: #000;">期刊查询 (查看可投稿期刊)</a> 
+                                        </div>
+                                        <br/><br/>
+                                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                        <div style="display: inline-block;" class="item">
+                                            <a href="http://www.zhiyunwenxian.cn/" target="_blank" style="color: #000;">知云文献翻译</a> &nbsp; | &nbsp;  <a href="https://www.overleaf.com/" target="_blank" style="color: #000;">在线Latex编辑器 ( Overleaf )</a>
+                                        </div>
+                                        <br/><br/>
+                                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                        <div style="display: inline-block;" class="item">
+                                            <a href="https://www.bioladder.cn/" target="_blank" style="color: #000;">数据可视化</a> &nbsp; | &nbsp;<a href="https://www.iconfont.cn/" target="_blank" style="color: #000;">阿里矢量图标库</a> 
+                                        </div>
+                                        <br/><br/>
+                                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                        <div style="display: inline-block;" class="item">
+                                            <a href="https://pdf.io/" target="_blank" style="color: #000;">PDF转换 (支持多种文件格式转换)</a> &nbsp; | &nbsp; <a href="https://smallpdf.com/" target="_blank" style="color: #000;">SmallPDF</a> &nbsp; | &nbsp; <a href="https://www.alltoall.net/" target="_blank" style="color: #000;">AllToAll ( PDF转换 )</a>
+                                        </div>
+                                        <br/><br/>
+                                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                        <div style="display: inline-block;" class="item">
+                                            <a href="https://51xxziyuan.com/60/" target="_blank" style="color: #000;">科研星球</a>  &nbsp; | &nbsp; <a href="https://gitmind.cn/" target="_blank" style="color: #000;">思维导图 (GitMind, 可替代XMind)</a> 
+                                        </div>
+                                        <br/><br/><br/>
+                                        
+                                        <a class="text">&nbsp;论文写作&nbsp;</a>&emsp;&emsp;&emsp;
+                                        <div style="display: inline-block;" class="item">
+                                            <a href="https://quillbot.com/" target="_blank" style="color: #000;">英文润色工具</a>   &nbsp; | &nbsp; <a href="https://paperproject13.checkpass.net/" target="_blank" style="color: #000;">论文查重</a>
+                                        </div>
+                                        <br/><br/><br/>
+
+                                        <a class="text1-1">&nbsp;&nbsp;Sci - Hub&nbsp;</a>&emsp;&emsp;&emsp;
+                                        <div style="display: inline-block;" class="item">
+                                            <a href="https://sci-hub.st/" target="_blank" style="color: #000;">Sci-Hub</a>   &nbsp; | &nbsp; <a href="https://sci-hub.se/" target="_blank" style="color: #000;">Sci-Hub</a> &nbsp; | &nbsp; <a href="http://www.sci-hub.ren/" target="_blank" style="color: #000;">Sci-Hub</a> &nbsp; | &nbsp; <a href="http://www.sci-hub.ren/" target="_blank" style="color: #000;">Sci-Hub</a>
+                                        </div>
+                                        <br/><br/><br/>
+
+                                        <a class="text2">&nbsp;代码学习&nbsp;</a>&emsp;&emsp;&emsp;
+                                        <div style="display: inline-block;" class="item">
+                                            <a href="https://github.com/Miraclelucy/dive_into_deep_learning" target="_blank" style="color: #000;">Pytorch</a> <a href="file/d2l-zh-pytorch.pdf" target="_blank" style="color: #000;">( 推荐直接看PDF )</a> &nbsp; | &nbsp; <a href="https://www.tensorflow.org/versions/r2.5/api_docs/python/tf" target="_blank" style="color: #000;">Tensorflow API</a> 
+                                        </div>
+                                        <br/><br/><br/>
+
+                                        <a class="text3">&nbsp;视频剪辑&nbsp;</a>&emsp;&emsp;&emsp;
+                                        <div style="display: inline-block;" class="item">
+                                            <a href="https://jianwai.youdao.com/" target="_blank" style="color: #000;">网易见外工作台 ( 语音转字幕 )</a> 
+                                        </div>
+                                        <br/><br/><br/>
+
+                                        <a class="text4">&nbsp;实用工具&nbsp;</a>&emsp;&emsp;&emsp;
+                                        <div style="display: inline-block;" class="item">
+                                            <a href="http://www.51pptmoban.com/" target="_blank" style="color: #000;">免费PPT模板</a> &nbsp; | &nbsp; <a href="https://www.polebrief.com/index" target="_blank" style="color: #000;">免费简历模板</a> 
+                                        </div>
+                                        <br/><br/>
+                                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                                        <div style="display: inline-block;" class="item">
+                                            <a href="https://www.voidtools.com/zh-cn/" target="_blank" style="color: #000;">Everthing (快速定位文件位置)</a> &nbsp; | &nbsp; <a href="http://pss-system.cnipa.gov.cn/" target="_blank" style="color: #000;">专利查询</a>&nbsp; | &nbsp; <a href="https://ps.gaoding.com/" target="_blank" style="color: #000;">在线PS图片</a>
+                                        </div>
+                                        <br/><br/><br/><br/>
+                                        <footer class="tm-footer">
+                                            <p class="tm-copyright-text" style="font-size: 20px;">Copyright &copy; By Leo. 任何建议可留言.</p>
+                                        </footer>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </li>
+                <li></li>
+                <li></li>
+            </ul>
+            
+            <!-- <footer class="tm-footer">
+            
+                <div class="tm-social-icons-container">
+                    <a href="#" class="tm-social-link"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="tm-social-link"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="tm-social-link"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="tm-social-link"><i class="fa fa-behance"></i></a>
+                    <a href="#" class="tm-social-link"><i class="fa fa-linkedin"></i></a>
+                </div>
+                
+                <p class="tm-copyright-text">Copyright &copy; 2016 Your Company - Design: <a href="https://plus.google.com/+templatemo" target="_blank">Templatemo</a></p>
+
+            </footer> -->
+                    
+        </div>
+
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+        
+        <script src="js/jquery-1.11.3.min.js"></script>        
+        <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> 
+        <script src="js/bootstrap.min.js"></script>            
+        <script src="js/hero-slider-main.js"></script>        
+        <script src="js/jquery.magnific-popup.min.js"></script> 
+        
+        <script>
+            function adjustHeightOfPage(pageNo) {
+                var totalPageHeight = 15 + $('.cd-slider-nav').height()
+                                        + $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .js-tm-page-content").height() + 160
+                                        + $('.tm-footer').height();
+                if(totalPageHeight > $(window).height()) 
+                {
+                    $('.cd-hero-slider').addClass('small-screen');
+                    $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", totalPageHeight + "px");
+                }
+                else 
+                {
+                    $('.cd-hero-slider').removeClass('small-screen');
+                    $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", "100%");
+                }
+
+            }
+            $(window).load(function(){
+                adjustHeightOfPage(1); 
+                $('.tm-img-gallery').magnificPopup({
+                    delegate: 'a', 
+                    type: 'image',
+                    gallery:{enabled:true}                
+                });
+                $('#tmNavbar a').click(function(){
+                    $('#tmNavbar').collapse('hide');
+
+                    adjustHeightOfPage($(this).data("no"));     
+                });
+                $( window ).resize(function() {
+                    var currentPageNo = $(".cd-hero-slider li.selected .js-tm-page-content").data("page-no");
+                    adjustHeightOfPage( currentPageNo );
+                });
+                $('body').addClass('loaded');
+                           
+            });
+
+        </script>             
+
+</body>
+</html>
